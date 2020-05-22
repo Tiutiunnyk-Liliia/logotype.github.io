@@ -335,6 +335,40 @@ header{
 }
 
 
+.about {
+  background: url("../img/about-fon.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  padding: 25px 0 45px;
+}
+
+.about__inner{
+  max-width: 545px;
+}
+
+.about__title{
+  padding: 10px 0 25px;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about__text{
+  margin-bottom: 30px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  color: #d3d2d2;
+}
+
+.about__btn.default__btn:after{
+  color: #000;
+}
+
+
 
 
 
